@@ -1,0 +1,28 @@
+/* 示例的样式辅助代码 */
+.ex-table{
+    width: 100%;
+    border: 1px solid #000;
+}
+.ex-table pre{
+    text-align: left;
+}
+.ex-table caption{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.ex-table td{
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px 2%;
+}
+.ex-table td:first-child{
+    width: 18%;
+}
+.ex-table td:last-child{
+    width: 35%;
+    border-right: 0 none;
+}
+.ex-table td:last-child p{
+    width: 216px;
+    border:1px solid #ccc;
+}

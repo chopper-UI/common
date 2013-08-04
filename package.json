@@ -1,0 +1,20 @@
+{
+  "name": "common",
+  "description": "通用类",
+  "version": "1.0.0",
+  "homepage": "https://github.com/chopper-UI/common",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chopper-UI/common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chopper-UI/common/issues"
+  },
+  "family": "chopper",
+  "spm": {
+    "alias": {},
+    "output": [
+      "common.css"
+    ]
+  }
+}
