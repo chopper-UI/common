@@ -53,9 +53,8 @@
 
 /**! block function **/
 .fn-box-shadow{
-    box-shadow:0 4px 6px #b3b5b6;
-    -webkit-box-shadow:0 4px 6px #b3b5b6;
-    -moz-box-shadow:0 4px 6px #b3b5b6;
+    box-shadow:0 4px 6px 0 #b3b5b6;
+    -webkit-box-shadow:0 4px 6px 0 #b3b5b6;
     border: 1px solid #cfcece;
 }
 .fn-linear {
@@ -83,7 +82,10 @@
 
 .text-hide{
     display: inline-block;
-    overflow: hidden;
-    text-indent: -999px;
     text-align: left;
+    letter-spacing: -3em;
+    overflow: hidden;
+}
+.text-hide:first-letter {
+    margin-left: -20em;
 }
